@@ -1,28 +1,48 @@
 body{
     text-align: center;
 }
+
 ul{
     text-align: center;
     display: flex;
     padding:0 42%;
 }
+
 li{
     margin: 0 10px;
 }
 
-.cat {
+div.cat {
     text-align: center;
     border-image-width: auto;
+    display: block;
+    float: right;
 }
 
 .cat img{
-    width: 150px;
+    width: 200px;
+    border: 25px solid black;
+}
+
+div.dog {
+    text-align: center;
+    border-image-width: auto;
+    display: block;
     float: left;
 }
 
+div.pig {
+    text-align: center;
+    border-image-width: auto;
+    display: block;
+    float: none;
+}
+
 .dog img{
-    width: 130px;
+    width: 180px;
+    border: 25px solid black;
 }
 .pig img{
-    width: 150px;
+    width: 200px;
+    border: 25px solid black;
 }

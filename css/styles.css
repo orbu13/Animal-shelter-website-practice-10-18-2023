@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    display: flex;
+    padding:0 42%;
+}
+li{
+    margin: 0 10px;
+}

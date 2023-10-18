@@ -35,7 +35,7 @@ div.pig {
     text-align: center;
     border-image-width: auto;
     display: block;
-    float: none;
+    float:none;
 }
 
 .dog img{
@@ -45,4 +45,28 @@ div.pig {
 .pig img{
     width: 200px;
     border: 25px solid black;
+}
+
+div.pig li{
+   text-decoration: underline;
+}
+
+div.cat li{
+    text-decoration: underline;
+}
+
+div.dog li {
+    text-decoration: underline;
+}
+
+div.dog ol{
+    background-color: aqua;
+}
+
+div.cat ul{
+    background-color: pink;
+}
+
+div.pig ol{
+    background-color: blanchedalmond;
 }

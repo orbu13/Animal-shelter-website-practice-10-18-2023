@@ -9,3 +9,20 @@ ul{
 li{
     margin: 0 10px;
 }
+
+.cat {
+    text-align: center;
+    border-image-width: auto;
+}
+
+.cat img{
+    width: 150px;
+    float: left;
+}
+
+.dog img{
+    width: 130px;
+}
+.pig img{
+    width: 150px;
+}

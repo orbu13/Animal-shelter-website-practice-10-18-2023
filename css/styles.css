@@ -61,12 +61,30 @@ div.dog li {
 
 div.dog ol{
     background-color: aqua;
+    text-align: center;
 }
 
 div.cat ul{
     background-color: pink;
+    text-align: center;
 }
 
 div.pig ol{
     background-color: blanchedalmond;
+}
+
+@media screen and (max-width:700px){
+    body{
+        background-color: pink;
+        text-decoration: line-through;
+        color: blue;
+    }
+}
+
+@media screen and (max-width:1200px){
+    div{
+        background-color: brown;
+        text-decoration: double;
+        color: aqua;
+    }
 }
